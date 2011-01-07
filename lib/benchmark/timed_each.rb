@@ -1,7 +1,7 @@
 require 'benchmark'
 
 module Benchmark
-  def self.collection_timer(collection, options={}, &block)
+  def self.timed_each(collection, options={}, &block)
     caption = options[:start_caption] || "Started processing collection\n"
     finish_caption = options[:finish_caption] || "Finished processing collection"
     label_width = nil
