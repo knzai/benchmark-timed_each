@@ -13,6 +13,6 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project         = ""
 
-  s.files        = Dir.glob("lib/**/*") + %w(test.rb UNLICENSE)
+  s.files        = Dir.glob("lib/**/*") + %w(test.rb UNLICENSE README.md)
   s.require_path = 'lib'
 end
